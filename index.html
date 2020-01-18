@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+<style>
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        margin: 0;
+    }
+
+    svg.chart {
+        position: absolute;
+        top: 0px;
+        right: 0;
+    }
+
+    #show-length {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .links {
+        fill: none;
+        stroke: #000;
+    }
+
+    .link-extensions {
+        fill: none;
+        stroke: #000;
+        stroke-opacity: .25;
+    }
+
+    .labels {
+        font-size: 10px;
+        font-family: sans-serif;
+    }
+
+    .link--active {
+        stroke: #000 !important;
+        stroke-width: 1.5px;
+    }
+
+    .link-extension--active {
+        stroke-opacity: .6;
+    }
+
+    .label--active {
+        font-size: 11px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    .label--poping {
+        font-size: 11px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+
+    div.tooltip {
+        position: absolute;
+        text-align: left;
+        padding: 10px;
+        font: 14px sans-serif;
+        background: #f2f2f2;
+        border: 1px solid #d7d7d7;
+        border-radius: 8px;
+        pointer-events: none;
+    }
+</style>
+
+<head>
+    <title>socketchain</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script
+        src=https://raw.githubusercontent.com/bitwiseshiftleft/sjcl/ec1162f7ce686e489c471d1d13772ebfda35623b/sjcl.js>
+        </script> </head> <!-- <script src="/socket.io/socket.io.js"></script> -->
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <!-- <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> -->
+    <script src="flow.js" type="module"></script>
+
+<body>
+
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>content</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=" https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

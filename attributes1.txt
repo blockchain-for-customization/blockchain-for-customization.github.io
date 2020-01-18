@@ -1,0 +1,183 @@
+(
+    (
+        (
+            Project Name:1,
+            Door Type:2,
+            Rated Load:3,
+            Travel height:4,
+            Speed:5,
+            Machine:6,
+            Rope Suspension:7,
+            Machine Room Location:8,
+            Dural Entrance:9
+        )General Specifications,
+        (
+            No. of Landing:10,
+            Car Width CW:11,
+            Car Depth CD:12,
+            Car Height CH:13,
+            Door Width DW:14,
+            Door Height DH:15,
+            Shaft Width SW:16,
+            Shaft Depth SD:17,
+            Shaft Pit Depth:18
+        )Building Specifications
+    )System Planning,
+    (
+        (
+            Machine Type:19,
+            Motor Cable:20,
+            Encoder:21,
+            Vibration protection frame:22
+        )Machine Availability,
+        (
+            Inverter Type:23,
+            Power Generation:24,
+            Chopper Resistor:25,
+            Brake Activation:26
+        )Frequency Inverter,
+        (
+            Dimension Type:27,
+            Car Type:28,
+            Plastic diverter pulleys:29,
+            Suspension:30,
+            Vibration isolation components:31,
+            Car Sling:32,
+            Ventilation:33
+        )Elevator Car,
+        (
+            Steel Plate frame:34,
+            Diverter pulleys:35,
+            Weight inserts:36,
+            Safety gear:37,
+            Pit screen:38
+        )Counterweight,
+        (
+            Sliding Guides Type:39,
+            Lubricating Units:40,
+            Roller Guides:41
+        )Guides on Elevator Car / Counterweight,
+        (
+            Rail Type:42,
+            Butt straps:43,
+            Mounting parts:44
+        )Guide rails,
+        (
+            Rope Type:45,
+            Rope end brackets:46,
+            Compensation chain:47
+        )Rope System,
+        (
+            Shackles type:48,
+            Material:49,
+            Mounting parts:50
+        )Shaft equipment,
+        (
+            Steel parts coating:51,
+            Layer thickness:52
+        )Painting / priming,
+        (
+            Material:53,
+            Noise-inhibiting type:54,
+            Door types:55,
+            Colour type:56,
+            Sill design:57,
+            Concealed sill guide:58,
+            Frequency-controlled drive:59,
+            Automatic learning function:60,
+            Closing force limiter:61,
+            High resolution light curtain:62
+        )Landing door / Car door,
+        (
+            Downward:63,
+            Upward:64
+        )Progressive safety gear,
+        (
+            Type:65,
+            Remote tripping:66,
+            Governor rope size:67,
+            Tensioner device:68
+        )Speed governor,
+        (
+            Buffer type:69,
+            Pit element:70
+        )Buffer
+    )Main Components Availability,
+    (
+        (
+            Style Type:71
+        )Ceiling,
+        (
+            Wall mounting:72,
+            Laminates for L-03:73
+        )Car Walls,
+        (
+            Style Type:74,
+            Colour:75
+        )Floor,
+        (
+            Style Type:76
+        )Handrails,
+        (
+            Mirror Type:77
+        )Mirrors,
+        (
+            Panel Type:78
+        )Car Operating Panel,
+        (
+            Entrance Type:79
+        )Car Entrance
+    )Decoration Components,
+    (
+        (
+            Control box measures:80,
+            External control panels:81,
+            Built-in control panel in the car:82
+        )Control Systems,
+        (
+            Emergency Call System:83,
+            Overload Sensor:84,
+            Load Measurement System:85
+        )Safety System,
+        (
+            Shaft wiring:86,
+            Shaft selector:87,
+            Traveling cable:88,
+            Car distribution box:89
+        )Others
+    )Accessories,
+    (
+        (
+            Machine hoisting hook:90,
+            Door hoisting hook:91
+        )Shaft ceiling,
+        (
+            Car guide rails:92,
+            Car buffer:93,
+            Counterweight buffer:94,
+            Counterweight guide rails:95
+        )Shaft pit floor,
+        (
+            Point 1 recess:96,
+            Point 2 recess:97,
+            Point 3 recess:98,
+            Point 4 recess:99
+        )Extraordinary load of machine base frame
+    )Occurring Forces,
+    (
+        (
+            Foundation Pit Depth:100
+        )Pit,
+        (
+            Dimension deviation:101,
+            Fire Resistant coating:102,
+            Water resistant coating:103,
+            Noise absorber:104
+        )Hoistway Wall,
+        (
+            Noise absorber:105,
+            Shock Isolation Floor:106,
+            Fire resistant Door:107
+        )Machine Room
+    )Architecture Specifications
+);
